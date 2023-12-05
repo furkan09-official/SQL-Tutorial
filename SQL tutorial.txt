@@ -1,0 +1,21 @@
+create table EmployeeDemographics(
+  id int,
+  first_name varchar(50),
+  last_name varchar(50),
+  age int,
+  salary int)
+  
+  insert into employeesDemographic values
+  (1, pat , cummins , 30, 30000)
+  (2, max , sort , 35, 340000)
+  (3, john , Don , 24, 3000)
+  (4, pat , cummins , 30, 20000)
+  (5, rikky , zeakel ,40, 240000)
+  (6, natasha , lossy , 25, 1000)
+  (7, pitter , hands , 27, 1200)
+  (8, hacker , john , 22, 1000)
+  (9, scott , homess , 25, 22000)
+  
+  select * from EmployeeDemographics
+  
+  
